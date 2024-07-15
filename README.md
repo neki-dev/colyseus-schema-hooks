@@ -23,7 +23,7 @@ npm i colyseus-schema-hooks
 const value = useSchemaValue(schema, prop);
 ```
 
-#### Subscribe to MapSchema or SetSchema updates
+#### Subscribe to updates of Map/Set Schema
 ```ts
 useSchemaListener(schema, {
   onAdd: (item) => {},

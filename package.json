@@ -1,8 +1,14 @@
 {
   "name": "colyseus-schema-hooks",
-  "description": "",
-  "version": "1.0.0",
-  "keywords": [],
+  "description": "React hooks for @colyseus/schema",
+  "version": "1.0.1",
+  "keywords": [
+    "colyseus",
+    "schema",
+    "listen",
+    "hook",
+    "value"
+  ],
   "license": "MIT",
   "author": {
     "name": "Nikita Galadiy",
