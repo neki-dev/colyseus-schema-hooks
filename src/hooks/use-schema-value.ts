@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
 import type { Schema } from "@colyseus/schema";
-import type { NonFunctionPropNames } from "@colyseus/schema/lib/types/HelperTypes";
+import { PropOf } from "../types";
 
 export function useSchemaValue<
   T extends Schema,
-  K extends NonFunctionPropNames<T>
+  K extends PropOf<T>
 >(schema: T, prop: K) {
   const [value, setValue] = useState(schema[prop]);
 
